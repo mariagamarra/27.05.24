@@ -1,18 +1,4 @@
-/** 
- * criar os objetos do ensaio
-*/
 
-/** 
- * 
- * Apolônio 3
- * Gregório 1
- * Rodrigo 2
- * Natalia 7
- * Aleciane 12
- * Erik 1
- * Rayssa 4
- * 
- * */
 
 class Pessoa {
     constructor (musicalidade, corpo, idade, peso, cor, coordenacao_motora, altura, ritmo, nome, ano_nascimento, mes_nascimento, dia_nascimento, nome_pai, nome_mae, rg, cpf, endereco, numero_endereco, bairro, cidade, estado, cep, whatsapp, facebook, instagram, twiter_x, linkedin, email, tiktok, youtube, snapchat, orkut, tinder, uber, app_99, profissao, nacionalidade, estado_civil, possui_deficiencia, cnh, passaporte, religiao, partido_politico, idioma, figurino, ) {
@@ -66,9 +52,21 @@ class Pessoa {
 }
 
 var pessoa = [];
-pessoa[0] = new Pessoa(parametro1, parametro2, );
-pessoa[1] = new Pessoa(parametro1, parametro2, );
-
+pessoa[0] = new Pessoa("João", 17, 59,"1,72", "preto", "eclética", "magro");
+pessoa[1] = new Pessoa("Davi", 16, 53,"1,63", "pardo", "rap", "magro");
+pessoa[2] = new Pessoa("Ale", 16, 60,"1,62", "parda", "gospel internacional", "midsize");
+pessoa[3] = new Pessoa("Rayssa", 17, 60,"1,52", "parda", "eclética", "atlético");
+pessoa[4] = new Pessoa("Mariana", 17, 70,"1,68", "parda", "eclética", "midsize");
+pessoa[5] = new Pessoa("Natália", 17, 57,"1,65", "branca", "eclética", "atlético");
+pessoa[6] = new Pessoa("Camylle", 17, 63,"1,65", "preta", "eclética", "atlético");
+pessoa[7] = new Pessoa("Julia", 18, 65,"1,65", "branca", "eclética", "atlético");
+pessoa[8] = new Pessoa("Sofia", 16, 55,"1,63", "branca", "gospel", "magro");
+pessoa[9] = new Pessoa("Maria Eduarda", 17, 57,"1,55", "branco", "eclética", "magro");
+pessoa[10] = new Pessoa("Leonardo", 18, 57,"1,72", "branco", "eclética", "magro");
+pessoa[11] = new Pessoa("Ícaro", 17, 65,"1,75", "preto", "eclética", "magro");
+pessoa[12] = new Pessoa("Thiago", 17, 65,"1,55", "branco", "eclética", "pluszise");
+pessoa[13] = new Pessoa("Matheus", 17, 80,"1,93", "pardo", "eclética", "magro");
+pessoa[14] = new Pessoa("Enzo T", 17, 55,"1,70", "branco", "eclética", "magro");
 
 class Musica {
     constructor (ritmo, velocidade, compasso, artista, nome, ano, tempo, idioma, tipo, genero, autor, compositor, musica, letra, instrumentos, volume, vocalista, baterista, guitarrista, baixista, sonoplasta) {
@@ -98,6 +96,23 @@ class Musica {
     }
 }
 
+var pessoa = [];
+pessoa[0] = new Pessoa("João", 17, 59,"1,72", "preto", "eclética", "magro");
+pessoa[1] = new Pessoa("Davi", 16, 53,"1,63", "pardo", "rap", "magro");
+pessoa[2] = new Pessoa("Ale", 16, 60,"1,62", "parda", "gospel internacional", "midsize");
+pessoa[3] = new Pessoa("Rayssa", 17, 60,"1,52", "parda", "eclética", "atlético");
+pessoa[4] = new Pessoa("Mariana", 17, 70,"1,68", "parda", "eclética", "midsize");
+pessoa[5] = new Pessoa("Natália", 17, 57,"1,65", "branca", "eclética", "atlético");
+pessoa[6] = new Pessoa("Camylle", 17, 63,"1,65", "preta", "eclética", "atlético");
+pessoa[7] = new Pessoa("Julia", 18, 65,"1,65", "branca", "eclética", "atlético");
+pessoa[8] = new Pessoa("Sofia", 16, 55,"1,63", "branca", "gospel", "magro");
+pessoa[9] = new Pessoa("Maria Eduarda", 17, 57,"1,55", "branco", "eclética", "magro");
+pessoa[10] = new Pessoa("Leonardo", 18, 57,"1,72", "branco", "eclética", "magro");
+pessoa[11] = new Pessoa("Ícaro", 17, 65,"1,75", "preto", "eclética", "magro");
+pessoa[12] = new Pessoa("Thiago", 17, 65,"1,55", "branco", "eclética", "pluszise");
+pessoa[13] = new Pessoa("Matheus", 17, 80,"1,93", "pardo", "eclética", "magro");
+pessoa[14] = new Pessoa("Enzo T", 17, 55,"1,70", "branco", "eclética", "magro");
+
 class Ritmo {
     constructor (movimento, tempo, velocidade, som, compasso, coreografia, nome, quantidade_de_pessoas, musica, bpm, sincronia, harmonia, vestimentas, genero_musical, maquiagens, equipamentos, local_de_ensaio, melodia, composicao, compositor, instrumentos) {
         this.movimento = movimento;
@@ -121,15 +136,14 @@ class Ritmo {
         this.composicao = composicao;
         this.compositor = compositor;
         this.instrumentos = instrumentos;
-        // Ação ...
+        
     }
 }
 
-var ritmo = [];
-ritmo[0] = new Ritmo(parametro1, parametro2, );
-ritmo[1] = new Ritmo(parametro1, parametro2, );
-
-
+var ritmo =[];
+ritmo[0] = new Ritmo("Pipocou","lento", "médio", "média","country")
+ritmo[1] = new Ritmo("Ram Tchum","animado", "médio", "rápida","funk")
+ritmo[2] = new Ritmo("Clima de Rodeio","lento", "médio", "média","country")
 
 class LocalDoEnsaio {
     constructor (espaco, largura, altura, profundidade, energia, som, musica, microfone, palco, cadeira, capacidade_de_pessoas, equipamentos_de_luz, internet, cabo_de_energia, apresentacoes, stands, disponibilidade, seguranca, horario_de_funcionamento, acessibilidade, publico, artistas, janela, porta, camarim, comida, sala_de_descanso, escadas, ) {
@@ -164,10 +178,8 @@ class LocalDoEnsaio {
 
     }
 }
-
-var local_do_ensaio = [];
-local_do_ensaio[0] = new LocalDoEnsaio(parametro1, parametro2, );
-local_do_ensaio[1] = new LocalDoEnsaio(parametro1, parametro2, );
+ var LocalDoEnsaio =[];
+localDoEnsaio[0] = new LocalDoEnsaio("salão social","lardo", "alto", "funda","tem energia", "1350 pessoas")
 
 class Banheiro {
     constructor (genero, produtos, torneira, pia, vaso, piso, agua, energia, espelho, toalha_de_papel, suporte_de_sabonete, sabonete, suporte_de_bolsa, lixeira, descarga, mictorio, encanamento, odorizante, lampada, porta, interruptor, sensor_de_luz, janela, macaneta, batente) {
@@ -200,31 +212,8 @@ class Banheiro {
     }
 }
 
-var banheiro = [];
-banheiro[0] = new Banheiro(parametro1, parametro2, );
-banheiro[1] = new Banheiro(parametro1, parametro2, );
+var Banheiro=[];
+banheiro[0] = new Banheiro("Feminino","papel higiênico, papel toalha, sabonete e lixeira", "6", "5","não tem mictótio", "2")
+banheiro[1] = new Banheiro("Masculino","papel higiênico, papel toalha, sabonete e lixeira", "4", "5","3", "1")
 
-/**
- *      this.musicalidade = musicalidade;
-        this.corpo = corpo;
-        this.idade = idade;
-        this.peso = peso;
-        this.cor = cor;
-        this.coordenacao_motora = coordenacao_motora;
-        this.altura = altura;
-        this.ritmo = ritmo;
-        this.nome = nome;
-        this.ano_nascimento = ano_nascimento;
-        this.mes_nascimento = mes_nascimento;
-        this.dia_nascimento = dia_nascimento;
-        this.nome_pai = nome_pai;
-        this.nome_mae = nome_mae;
-        this.rg = rg;
-        this.endereco = endereco;
-        this.numero_endereco = numero_endereco;
-        this.bairro = bairro;
-        this.cidade = cidade;
-        this.estado = estado;
-        this.cep = cep;
-
- */
+        
